@@ -1,0 +1,110 @@
+h1.head{
+    font-size: 3.7em;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Press Start 2P', cursive;
+}
+h3.hi{
+    font-size: 1.7em;
+    font-weight: bolder;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Press Start 2P', cursive;
+}
+body{
+    background-image: url(pokemon.jpg);
+    background-size: contain;
+}
+.pokestyle{
+    list-style: none;
+    text-align: center;
+    padding: 7px;
+    font-size: medium;
+    font-style: italic;
+    text-shadow: black;
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+   }
+
+   .btn1{
+     height: 80px;
+     border-radius: 50%;
+     position: absolute;
+     color: rgb(84, 84, 98);
+     font-family: 'Press Start 2P', cursive;
+   }
+
+   .btn2{
+    margin-left: 91%;
+    height: 80px;
+     border-radius: 50%;
+     position: absolute;
+     color: rgb(84, 84, 98);
+     font-family: 'Press Start 2P', cursive;
+   }
+
+   .btn1:hover{
+       color: black;
+       cursor: pointer;
+   }
+
+   .btn2:hover{
+       color: black;
+       cursor: pointer;
+   }
+
+   .container {
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 10px 200px;
+  }
+  .container .txt{
+      font-size: 7px;
+      font-family: 'Press Start 2P', cursive;
+  }
+  
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 10%;
+    border: 2px solid grey;
+  }
+  
+  .container span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  @media (max-width: 100px) {
+    .container {
+        text-align: center;
+    }
+    .container img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+  }
+
+  .btn3{
+      margin-left: 45%;
+      color: white;
+      font-weight: bolder;
+  }
+  .btn3:hover{
+      color: black;
+      cursor: pointer;
+  }
+
+ .button{
+   color: white;
+ }
